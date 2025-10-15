@@ -49,7 +49,7 @@ export default function App() {
         type="number"
         value={userInput}
         min="0"
-        placeholder="Enter a number"
+        placeholder="Enter a number (new thing!)"
         onChange={e => setUserInput(e.target.value)}
       />
       <br />
